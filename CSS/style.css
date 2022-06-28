@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+background-color: white;
+padding: 20px 0;
+border-bottom: 1px solid #E4E1E2;
+
+
+}
+
+.center{
+    max-width: 1200px;   
+    padding:0 2%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.logo{
+    font-size: 18px;
+    color:#6359CC;
+    cursor: pointer;   
+}
+
+.logo-robo{
+    margin-right: 8px;
+}
+
+.menu-desktop{
+display: flex;
+align-items: center;
+}
+
+.nav-items a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #6359CC;
+}
+
+.nav-items li{
+list-style: none;
+
+}
+
+.nav-items{
+    display: flex
+    
+}
+
+.menu-items{
+    padding: 10px;
+}
+
+main{
+
+    background-image: url('../Images/image-background.jpg');
+    background-attachment:fixed;
+    min-height: 800px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;     
+    
+
+}
+
+
+.img-conteudo{
+    width: 40%;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+    
+
+}
+
+.img{
+    width:400px;
+    
+    
+}
+
+
+.section--father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.section--one h1{
+    font-size: 30px;
+    color:#766dd8;
+    
+
+
+}
+
+
+
+.section--one h3{
+    
+    font-size: 15px;
+    color:#877ee4;
+    
+}
+
+
+.btn--conteudo{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    padding: 1px 1px 1px;
+    font-size:18px;
+    border: 2px solid #857ce7;
+    border-radius: 12px;
+    color: white;
+    background-color: #877ee4;
+    cursor: pointer;
+}
+
+.btn--conteudo:hover{
+    background-color: #4537db ;
+    transition: 2s;
+    border: #E4E1E2;
+
+}
+
+
+.box--options{
+    width: 250px;
+    height: 220px;
+    border: 2px solid black;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+
+.box--options-father{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.box--options{
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.box--options h1{
+    
+    color: #067a6b;
+    
+}
+
+.box--options h2 {
+font-size: 17px;
+color: #075c51;
+}
+
+
