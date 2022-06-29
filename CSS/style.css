@@ -139,7 +139,7 @@ main{
 }
 
 .btn--conteudo:hover{
-    background-color: #877ee4 ;
+    background-color: #5145cf ;
     transition: 2s;
     border: #E4E1E2;
 
@@ -152,13 +152,12 @@ main{
     margin-right: 20px;
     padding: 15px;
     background-color: #EFF0EF;
-
-
-   
+    box-shadow: 2px 3px 10px #877ee4;
+   transition: 0.5s;
 }
 
 .box--options:hover{
-    box-shadow: 2px 2px 2px black;
+    transform: scale(1.1);
 }
 
 .box--options-father{
