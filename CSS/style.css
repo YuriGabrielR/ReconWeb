@@ -1,3 +1,5 @@
+/*reset css*/
+
 *{
     box-sizing: border-box;
     margin:0px;
@@ -5,16 +7,29 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-header{
-background-color: white;
-padding: 20px 0;
-border-bottom: 1px solid #E4E1E2;
+/*reset css*/
 
 
+
+/*configs gerais*/
+
+body{
+    min-height: 100vh;
 }
 
-.center{
+/*configs gerais*/
+
+
+
+/*Cabecalho*/
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #E4E1E2;
+    }
+    
+
+.container{
     max-width: 1200px;   
     padding:0 2%;
     margin:0 auto;
@@ -77,8 +92,11 @@ width: 100%;
     padding: 10px;
 }
 
-main{
+/*Fim --> cabecalho*/
 
+
+/*conteudo principal primeira parte*/
+main{
     background-image: url('../Images/image-background.jpg');
     background-attachment:fixed;
     background-position: center center;
@@ -89,29 +107,45 @@ main{
 }
 
 
-.conteudo-principal{
+.section--one{
     display: flex;
+    align-items: center;
     justify-content: center;
    flex-wrap: wrap;
- 
-
 }
 
-
-
-.section--father{
+.conteudo--primario{
     display: flex;
-    justify-content: center;
+    width: 1200px;
     align-items: center;
-    align-content: center;
-    gap: 30px;
+    flex-wrap: wrap;
 }
+
+.conteudo-titulo-btn{
+    flex-wrap: wrap;
+}
+
+
+
+.textContent-one{
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.img--contentfirst{
+    width: 50%;
+}
+
+
+.section--one{
+   
+    flex-wrap: wrap;
+}
+
 
 .section--one h1{
     font-size: 30px;
     color:#766dd8;
-
-
 }
 
 
@@ -148,6 +182,7 @@ margin-top: 100px;
 
 }
 
+/*fim --> conteudo principal primeira parte*/
 
 .box--options{
     width: 250px;
@@ -163,7 +198,7 @@ margin-top: 100px;
     transform: scale(1.1);
 }
 
-.box--options-father{
+.section--secundario{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
